@@ -1,0 +1,41 @@
+{
+    "name": "react-placeholder-fallback",
+    "version": "0.0.1",
+    "types": "dist",
+    "main": "dist/index.bundle.js",
+    "author": "weffe",
+    "homepage": "https://github.com/Weffe/react-placeholder-fallback#readme",
+    "bugs": "https://github.com/Weffe/react-placeholder-fallback/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Weffe/react-placeholder-fallback.git"
+    },
+    "devDependencies": {
+        "@types/react": "^16.8.0",
+        "@types/react-dom": "^16.0.11",
+        "css-loader": "^2.1.0",
+        "fork-ts-checker-webpack-plugin": "^0.5.2",
+        "mini-css-extract-plugin": "^0.5.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.1",
+        "peer-deps-externals-webpack-plugin": "^1.0.4",
+        "progress-bar-webpack-plugin": "^1.12.1",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0",
+        "rimraf": "^2.6.3",
+        "ts-loader": "^5.3.3",
+        "tslib": "^1.9.3",
+        "typescript": "^3.2.4",
+        "uglifyjs-webpack-plugin": "^2.1.1",
+        "webpack": "^4.29.0",
+        "webpack-cli": "^3.2.1"
+    },
+    "scripts": {
+        "prebuild": "rimraf dist",
+        "build": "webpack",
+        "dev": "webpack -w"
+    },
+    "peerDependencies": {
+        "react": "^0.14 || ^15 || ^16",
+        "react-dom": "^0.14 || ^15 || ^16"
+    }
+}
