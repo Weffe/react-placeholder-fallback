@@ -7,19 +7,16 @@
         "declaration": true,
         "sourceMap": true,
         "esModuleInterop": true,
-        "downlevelIteration": true,
         "alwaysStrict": true,
         "strict": true,
         "jsx": "react",
         "lib": [
             "dom",
-            "es6"
+            "es6",
+            "es7"
         ],
-        "noEmitHelpers": false,
-        "importHelpers": true,
         "noResolve": false,
-        "noEmit": false,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
     },
     "include": [
         "src/*"

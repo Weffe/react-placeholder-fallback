@@ -5,7 +5,7 @@ const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const pkg = require('./package.json')
+const pkg = require('./package.json');
 
 module.exports = {
     mode: 'production',
@@ -19,8 +19,18 @@ module.exports = {
                 parallel: true,
                 sourceMap: true // set to true if you want JS source maps
             }),
-            new OptimizeCSSAssetsPlugin({})
-        ]
+            new OptimizeCSSAssetsPlugin()
+        ],
+        splitChunks: {
+            cacheGroups: {
+                styles: {
+                    name: 'styles',
+                    test: /\.css$/,
+                    chunks: 'all',
+                    enforce: true
+                }
+            }
+        },
     },
     module: {
         rules: [
@@ -51,7 +61,6 @@ module.exports = {
             // Options similar to the same options in webpackOptions.output
             // both options are optional
             filename: "[name].css",
-            chunkFilename: "[id].css"
         }),
     ],
     output: {
