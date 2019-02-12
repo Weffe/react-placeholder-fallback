@@ -6,7 +6,7 @@ export interface IPlaceholderFallbackProps {
     /** The amount of time (ms) that is waited before showing the fallback */
     timeout?: number;
     /** The fallback to display when the timeout expires */
-    fallback?: React.ComponentType<any>;
+    fallback?: React.ReactNode;
     /** The placeholder to display while the timeout has not expired*/
     placeholder: React.ReactNode;
 }
@@ -76,13 +76,21 @@ export class PlaceholderFallback extends React.Component<IPlaceholderFallbackPro
              */
             const Placeholder = this.props.placeholder;
 
+            if (typeof Placeholder === 'function') {
+                return <Placeholder />
+            }
+
             return Placeholder;
         }
         else if (showFallback) {
             if (fallback) {
                 const Fallback = fallback;
 
-                return <Fallback />
+                if (typeof Fallback === 'function') {
+                    return <Fallback />
+                }
+
+                return Fallback;
             }
 
             return this.renderDefaultFallback();
