@@ -1,46 +1,46 @@
 {
-    "name": "react-placeholder-fallback",
-    "version": "0.0.1",
-    "types": "dist",
-    "main": "dist/index.js",
-    "author": "weffe",
-    "homepage": "https://github.com/Weffe/react-placeholder-fallback#readme",
-    "bugs": "https://github.com/Weffe/react-placeholder-fallback/issues",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Weffe/react-placeholder-fallback.git"
-    },
-    "sideEffects": false,
-    "devDependencies": {
-        "@types/react": "^16.8.0",
-        "@types/react-dom": "^16.0.11",
-        "npm-run-all": "^4.1.5",
-        "parcel-bundler": "^1.11.0",
-        "parcel-plugin-typescript": "^1.0.0",
-        "react": "^16.7.0",
-        "react-dom": "^16.7.0",
-        "rimraf": "^2.6.3",
-        "standard-version": "^4.4.0",
-        "typescript": "^3.2.4"
-    },
-    "scripts": {
-        "start": "run-p parcel:watch type-check:watch",
-        "parcel:watch": "parcel watch src/index.ts",
-        "type-check:watch": "tsc --emitDeclarationOnly --watch",
-        "prebuild": "rimraf dist",
-        "build": "run-s create-dts parcel:build",
-        "parcel:build": "parcel build src/index.ts --global react-placeholder-fallback",
-        "create-dts": "tsc --emitDeclarationOnly",
-        "release": "standard-version"
-    },
-    "peerDependencies": {
-        "react": "^0.14 || ^15 || ^16",
-        "react-dom": "^0.14 || ^15 || ^16"
-    },
-    "browserslist": [
-        ">0.25%",
-        "not dead",
-        "not ie <= 10",
-        "not op_mini all"
-    ]
+  "name": "react-placeholder-fallback",
+  "version": "1.0.0",
+  "types": "dist",
+  "main": "dist/index.js",
+  "author": "weffe",
+  "homepage": "https://github.com/Weffe/react-placeholder-fallback#readme",
+  "bugs": "https://github.com/Weffe/react-placeholder-fallback/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Weffe/react-placeholder-fallback.git"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.0.11",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-typescript": "^1.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "rimraf": "^2.6.3",
+    "standard-version": "^4.4.0",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "start": "run-p parcel:watch type-check:watch",
+    "parcel:watch": "parcel watch src/index.ts",
+    "type-check:watch": "tsc --emitDeclarationOnly --watch",
+    "prebuild": "rimraf dist",
+    "build": "run-s create-dts parcel:build",
+    "parcel:build": "parcel build src/index.ts --global react-placeholder-fallback",
+    "create-dts": "tsc --emitDeclarationOnly",
+    "release": "standard-version"
+  },
+  "peerDependencies": {
+    "react": "^0.14 || ^15 || ^16",
+    "react-dom": "^0.14 || ^15 || ^16"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ]
 }
