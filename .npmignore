@@ -1,3 +1,7 @@
 src
 .gitignore
 webpack.config.js
+docs
+.cache
+*.log
+.lock
