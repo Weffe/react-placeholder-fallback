@@ -20,6 +20,7 @@
         "react": "^16.7.0",
         "react-dom": "^16.7.0",
         "rimraf": "^2.6.3",
+        "standard-version": "^4.4.0",
         "typescript": "^3.2.4"
     },
     "scripts": {
@@ -29,7 +30,8 @@
         "prebuild": "rimraf dist",
         "build": "run-s create-dts parcel:build",
         "parcel:build": "parcel build src/index.ts --global react-placeholder-fallback",
-        "create-dts": "tsc --emitDeclarationOnly"
+        "create-dts": "tsc --emitDeclarationOnly",
+        "release": "standard-version"
     },
     "peerDependencies": {
         "react": "^0.14 || ^15 || ^16",
