@@ -9,16 +9,15 @@
     opacity: 1;
 }
 
+.rpf--circle-ph {
+    border-radius: 50%;
+}
 
 .rpf--paragraph-block-ph {
     text-align: left;
 }
 
-.rpf--circle {
-    border-radius: 50%;
-}
-
-@keyframes shimmer {
+@keyframes rpf-shimmer {
     0%, 100% {
         background-image: linear-gradient(
             90deg,
@@ -35,7 +34,7 @@
     }
 }
 
-@keyframes pulse {
+@keyframes rpf-pulse {
     0% {
         opacity: 1;
     }
@@ -53,11 +52,11 @@
 }
 
 .rpf--shimmer-animation {
-    animation-name: shimmer;
+    animation-name: rpf-shimmer;
 }
 
 .rpf--pulse-animation {
-    animation-name: pulse;
+    animation-name: rpf-pulse;
 }
 
 .rpf--animation-speed-slow {
