@@ -3,16 +3,32 @@ import { IPlaceholderWidth } from './placeholder-width';
 
 export interface ITextBlockProps {
     className?: string;
+    animated?: boolean;
     animationSpeed?: 'slow' | 'medium' | 'fast';
     animationType?: 'shimmer' | 'pulse';
     width?: IPlaceholderWidth["width"] | string;
     height?: string;
+    style?: object;
+    /** Specifies what html element this is rendered as. E.g. <span>, <div>, etc. */
+    as?: any;
 }
 
 export class TextBlock extends React.PureComponent<ITextBlockProps> {
     public static defaultProps: Partial<ITextBlockProps> = {
+        animated: true,
         animationSpeed: 'medium',
         animationType: 'shimmer',
+        as: 'span'
+    }
+
+    public get animatedClassName() {
+        const { animated } = this.props;
+
+        if (animated) {
+            return 'rpf--animated'
+        }
+
+        return undefined
     }
 
     public get animationSpeedClassName() {
@@ -60,8 +76,11 @@ export class TextBlock extends React.PureComponent<ITextBlockProps> {
     }
 
     public get computedClassName() {
-        let classes = 'rpf--primitive-placeholder rpf--animated rpf--text-block-ph';
-        classes = `${classes} ${this.animationTypeClassName} ${this.animationSpeedClassName}`;
+        let classes = 'rpf--primitive-placeholder rpf--text-block-ph';
+
+        if (this.props.animated) {
+            classes = `${classes} ${this.animatedClassName} ${this.animationTypeClassName} ${this.animationSpeedClassName}`;
+        }
 
         if (this.props.className) {
             classes = `${this.props.className} ${classes}`;
@@ -80,9 +99,10 @@ export class TextBlock extends React.PureComponent<ITextBlockProps> {
         const style: {
             width?: string;
             height?: string;
-        } = {};
+        } = { ...this.props.style };
 
         if (this.props.width) {
+            // reuse prebuilt class name
             if (this.isWidthInDefaultValues(this.props.width) === false) {
                 style.width = this.props.width;
             }
@@ -95,10 +115,12 @@ export class TextBlock extends React.PureComponent<ITextBlockProps> {
     }
 
     public render() {
+        const ElementType = this.props.as!;
+
         return (
-            <span className={this.computedClassName} style={this.style}>
+            <ElementType className={this.computedClassName} style={this.style}>
                 &zwnj;
-            </span>
+            </ElementType>
         );
     }
 
