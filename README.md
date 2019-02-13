@@ -1,6 +1,6 @@
 # React Placeholder Fallback
 
-![version badge](https://img.shields.io/badge/version-2.0.1-blue.svg)
+![version badge](https://img.shields.io/badge/version-2.1.0-blue.svg)
 
 Simple react component to manage when to show placeholders and fallback messages when a network request fails.
 
@@ -28,13 +28,13 @@ yarn add react-placeholder-fallback
 
 ```JSX
 import * as React from 'react';
-import { PlaceholderFallback, ParagraphBlock } from 'react-placeholder-fallback';
+import { PlaceholderFallback, Placeholders } from 'react-placeholder-fallback';
 import 'react-placeholder-fallback/dist/index.css'; // required if using prebuilt placeholders
 
 class App extends React.Component {
     render() {
         return (
-            <PlaceholderFallback placeholder={ParagraphBlock} />
+            <PlaceholderFallback placeholder={Placeholders.ParagraphBlock} />
         )
     }
 }

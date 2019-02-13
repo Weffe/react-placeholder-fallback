@@ -1,6 +1,6 @@
 {
   "name": "react-placeholder-fallback",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "types": "dist",
   "main": "dist/index.js",
   "author": "weffe",
