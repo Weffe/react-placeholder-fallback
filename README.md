@@ -29,6 +29,7 @@ yarn add react-placeholder-fallback
 ```JSX
 import * as React from 'react';
 import { PlaceholderFallback, ParagraphBlock } from 'react-placeholder-fallback';
+import 'react-placeholder-fallback/dist/index.css'; // required if using prebuilt placeholders
 
 class App extends React.Component {
     render() {
@@ -46,6 +47,11 @@ Typically one would use placeholders to simulate data is loading from a network 
 ## TypeScript Support
 
 This library has first class support for TypeScript. Types are automatically included and don't need to be downloaded from the `@types` repository.
+
+## Documentation
+
+1. [Examples](./docs/Examples.md)
+1. [Full-Example](./docs/Full-Example.md)
 
 ## Motivation
 
