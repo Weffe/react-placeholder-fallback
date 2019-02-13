@@ -1,6 +1,7 @@
 src
 .gitignore
 *.config.js
+*.config.ts
 docs
 .cache
 *.log
