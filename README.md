@@ -1,6 +1,6 @@
 # React Placeholder Fallback
 
-![version badge](https://img.shields.io/badge/version-2.1.0-blue.svg)
+[![npm version](http://img.shields.io/npm/v/react-placeholder-fallback.svg)](https://npmjs.org/package/react-placeholder-fallback "View this project on npm")
 
 Simple react component to manage when to show placeholders and fallback messages when a network request fails.
 
