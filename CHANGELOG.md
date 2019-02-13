@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/Weffe/react-placeholder-fallback/compare/v1.0.0...v2.0.0) (2019-02-13)
+
+
+### Features
+
+* move from parcel to webpack 4 ([16ee2f4](https://github.com/Weffe/react-placeholder-fallback/commit/16ee2f4))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2019-02-12)
 
