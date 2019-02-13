@@ -50,7 +50,7 @@ const renderFallback = () => {
 
 <PlaceholderFallback 
     placeholder={ParagraphBlock}
-    fallback={this.renderFallback} />
+    fallback={renderFallback} />
 ```
 
 ```JSX
