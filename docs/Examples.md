@@ -68,6 +68,70 @@ const { ParagraphBlock } = Placeholders;
 ```
 
 
+## Create Configurable PlaceholderFallback
+
+In the event that you want to reuse a `PlaceholderFallback` with custom default options then you
+would want to use the `create` method. This allows you to create a custom instance of your own 
+preferences and reuse them across your app. You are able to override your own custom default
+values if you specify them as props in cases where you have to manually tune your own custom
+`PlaceholderFallback`.
+
+### Options
+
+The create function takes the following options as an entire object:
+
+```typescript
+interface IOptions {
+    /** The amount of time (ms) that is waited before showing the placeholder */
+    delay: number;
+    /** The amount of time (ms) that is waited before showing the fallback */
+    timeout: number;
+    /** The fallback to display when the timeout expires */
+    fallback: React.ReactNode;
+}
+```
+
+### Usage
+
+```JSX
+// CustomPlaceholderFallback.js
+
+import * as React from 'react';
+import { create } from 'react-placeholder-fallback';
+
+/**
+ * It's important to name your variable starting with
+ * an Uppercase! If you don't then it will fail because
+ * JSX requires JSX Elements to start with an Uppercase letter.
+ */ 
+export const CustomPlaceholderFallback = create({
+    delay: 150, // specify 150ms delay - always
+    timeout: 3000, // specify a shorter timeout
+    fallback: <p>Custom Default Fallback Message</p>,
+});
+```
+
+```JSX
+// App.js
+
+import * as React from 'react';
+import { CustomPlaceholderFallback } from './CustomPlaceholderFallback';
+
+class App extends React.Component {
+    render() {
+        return (
+            {/* If you need to override your own values. 
+              * Then just specify them as props as you normally would!
+              *
+              * Here we are overriding our custom delay value and specifying it
+              * to 750ms instead of 150ms.
+              */}
+            <CustomPlaceholderFallback delay={750} placeholder={<h1>Hello World</h1>} />
+        )
+    }
+}
+```
+
 ## Prebuilt Placeholders
 
 This library comes equipped with a couple of placeholders already prebuilt. You don't have
