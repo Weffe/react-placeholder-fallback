@@ -8,3 +8,4 @@ docs
 .lock
 config
 .editorconfig
+*.lock
