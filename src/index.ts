@@ -1,4 +1,6 @@
-import "./styles/placeholder-styles.css";
-import "./styles/placeholder-widths.css";
 export { PlaceholderFallback, IPlaceholderFallbackProps } from "./components/PlaceholderFallback";
-export { TextBlock, ParagraphBlock, Circle } from "./components/placeholders";
+import * as placeholders from "./components/placeholders";
+
+// group placeholders under one import namespace
+export const Placeholders = placeholders;
+

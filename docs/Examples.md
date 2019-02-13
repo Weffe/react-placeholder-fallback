@@ -19,9 +19,9 @@ placeholder: React.ReactNode;
 ### Usage
 ```JSX
 // bare minimum
-import { ParagraphBlock } from 'react-placeholder-fallback';
+import { Placeholders } from 'react-placeholder-fallback';
 
-<PlaceholderFallback placeholder={ParagraphBlock} />
+<PlaceholderFallback placeholder={Placeholders.ParagraphBlock} />
 ```
 
 ```JSX
@@ -31,16 +31,16 @@ import { ParagraphBlock } from 'react-placeholder-fallback';
 
 ```JSX
 // provide custom fallback element
-import { ParagraphBlock } from 'react-placeholder-fallback';
+import { Placeholders } from 'react-placeholder-fallback';
 
 <PlaceholderFallback 
-    placeholder={ParagraphBlock}
+    placeholder={Placeholders.ParagraphBlock}
     fallback={<p>Oh no! Something went wrong!</p>} />
 ```
 
 ```JSX
 // provide custom fallback element through function
-import { ParagraphBlock } from 'react-placeholder-fallback';
+import { Placeholders } from 'react-placeholder-fallback';
 
 const renderFallback = () => {
     return (
@@ -49,13 +49,17 @@ const renderFallback = () => {
 }
 
 <PlaceholderFallback 
-    placeholder={ParagraphBlock}
+    placeholder={Placeholders.ParagraphBlock}
     fallback={renderFallback} />
 ```
 
 ```JSX
 // overriding default options with props
-import { ParagraphBlock } from 'react-placeholder-fallback';
+import { Placeholders } from 'react-placeholder-fallback';
+
+// if you get tired of Placeholders.ParagraphBlock
+// then just destructure it like so :)
+const { ParagraphBlock } = Placeholders;
 
 <PlaceholderFallback 
     placeholder={ParagraphBlock} 
