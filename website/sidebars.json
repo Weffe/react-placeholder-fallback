@@ -1,0 +1,11 @@
+{
+    "docs": {
+        "Introduction": [
+            "getting-started",
+            "more-resources"
+        ],
+        "Examples": [
+            "examples/placeholderfallback"
+        ]
+    }
+}
