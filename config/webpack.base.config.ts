@@ -25,7 +25,7 @@ const config = (rootdir: string): webpack.Configuration => ({
         ]
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.css']
+        extensions: ['.tsx', '.ts', '.css', '.js'],
     },
     plugins: [
         new MiniCssExtractPlugin({

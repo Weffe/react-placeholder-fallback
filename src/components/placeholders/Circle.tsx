@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { IPlaceholderWidth } from './placeholder-width'
+import includes from 'lodash.includes'
 
 export interface ICircleProps {
     className?: string;
@@ -72,7 +73,7 @@ export class Circle extends React.PureComponent<ICircleProps> {
             '100%',
         ];
 
-        return defaultWidthValues.includes(targetWidth);
+        return includes(defaultWidthValues, targetWidth);
     }
 
     public get computedClassName() {

@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1.1"></a>
+## [2.1.1](https://github.com/Weffe/react-placeholder-fallback/compare/v2.1.0...v2.1.1) (2019-02-14)
+
+
+### Bug Fixes
+
+* **types:** properly export the IPlaceholderWidth in dist folder ([68a774c](https://github.com/Weffe/react-placeholder-fallback/commit/68a774c))
+
+
+### Features
+
+* **compatibility:** Add support for IE due to usage of array.includes ([3590042](https://github.com/Weffe/react-placeholder-fallback/commit/3590042))
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/Weffe/react-placeholder-fallback/compare/v2.0.1...v2.1.0) (2019-02-13)
 
