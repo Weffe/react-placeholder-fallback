@@ -1,65 +1,65 @@
 {
-    "name": "react-placeholder-fallback",
-    "version": "2.1.0",
-    "types": "dist",
-    "main": "dist/index.js",
-    "author": "weffe",
-    "homepage": "https://github.com/Weffe/react-placeholder-fallback#readme",
-    "bugs": "https://github.com/Weffe/react-placeholder-fallback/issues",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Weffe/react-placeholder-fallback.git"
-    },
-    "sideEffects": false,
-    "devDependencies": {
-        "@types/lodash.includes": "^4.3.5",
-        "@types/mini-css-extract-plugin": "^0.2.0",
-        "@types/node": "^11.9.3",
-        "@types/optimize-css-assets-webpack-plugin": "^1.3.3",
-        "@types/react": "^16.8.0",
-        "@types/react-dom": "^16.0.11",
-        "@types/uglifyjs-webpack-plugin": "^1.1.0",
-        "@types/webpack": "^4.4.24",
-        "@types/webpack-merge": "^4.1.3",
-        "css-loader": "^2.1.0",
-        "mini-css-extract-plugin": "^0.5.0",
-        "npm-run-all": "^4.1.5",
-        "optimize-css-assets-webpack-plugin": "^5.0.1",
-        "parcel-bundler": "^1.11.0",
-        "parcel-plugin-typescript": "^1.0.0",
-        "react": "^16.7.0",
-        "rimraf": "^2.6.3",
-        "standard-version": "^4.4.0",
-        "ts-loader": "^5.3.3",
-        "ts-node": "^8.0.2",
-        "typescript": "^3.2.4",
-        "uglifyjs-webpack-plugin": "^2.1.1",
-        "webpack": "^4.29.3",
-        "webpack-cli": "^3.2.3",
-        "webpack-merge": "^4.2.1"
-    },
-    "scripts": {
-        "start": "webpack --config webpack.dev.config.ts --progress",
-        "prebuild": "rimraf dist",
-        "build": "webpack --config webpack.prod.config.ts --progress",
-        "release": "standard-version"
-    },
-    "peerDependencies": {
-        "react": "^0.14 || ^15 || ^16"
-    },
-    "browserslist": [
-        ">0.25%",
-        "not dead",
-        "not ie <= 10",
-        "not op_mini all"
-    ],
-    "dependencies": {
-        "lodash.includes": "^4.3.0"
-    },
-    "files": [
-        "dist",
-        "LICENSE",
-        "README.md",
-        "CHANGELOG.md"
-    ]
+  "name": "react-placeholder-fallback",
+  "version": "2.1.1",
+  "types": "dist",
+  "main": "dist/index.js",
+  "author": "weffe",
+  "homepage": "https://github.com/Weffe/react-placeholder-fallback#readme",
+  "bugs": "https://github.com/Weffe/react-placeholder-fallback/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Weffe/react-placeholder-fallback.git"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/lodash.includes": "^4.3.5",
+    "@types/mini-css-extract-plugin": "^0.2.0",
+    "@types/node": "^11.9.3",
+    "@types/optimize-css-assets-webpack-plugin": "^1.3.3",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.0.11",
+    "@types/uglifyjs-webpack-plugin": "^1.1.0",
+    "@types/webpack": "^4.4.24",
+    "@types/webpack-merge": "^4.1.3",
+    "css-loader": "^2.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-typescript": "^1.0.0",
+    "react": "^16.7.0",
+    "rimraf": "^2.6.3",
+    "standard-version": "^4.4.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.dev.config.ts --progress",
+    "prebuild": "rimraf dist",
+    "build": "webpack --config webpack.prod.config.ts --progress",
+    "release": "standard-version"
+  },
+  "peerDependencies": {
+    "react": "^0.14 || ^15 || ^16"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "lodash.includes": "^4.3.0"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ]
 }
