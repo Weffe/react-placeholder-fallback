@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { IPlaceholderWidth } from './placeholder-width';
+import includes from 'lodash.includes'
 
 export interface ITextBlockProps {
     className?: string;
@@ -72,7 +73,7 @@ export class TextBlock extends React.PureComponent<ITextBlockProps> {
             '100%',
         ];
 
-        return defaultWidthValues.includes(targetWidth);
+        return includes(defaultWidthValues, targetWidth);
     }
 
     public get computedClassName() {

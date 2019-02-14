@@ -12,14 +12,13 @@
         "jsx": "react",
         "lib": [
             "dom",
-            "es6",
-            "es7"
+            "es6"
         ],
         "noResolve": false,
-        "moduleResolution": "node",
+        "moduleResolution": "node"
     },
     "include": [
-        "src/*"
+        "src/**/*"
     ],
     "exclude": [
         "node_modules",
