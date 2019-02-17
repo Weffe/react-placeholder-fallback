@@ -5,8 +5,11 @@
     "previous": "Previous",
     "tagline": "A website for testing",
     "docs": {
+      "api/placeholderfallback": {
+        "title": "Placeholder Fallback"
+      },
       "examples/placeholderfallback": {
-        "title": "Example - Placeholder Fallback"
+        "title": "Placeholder Fallback"
       },
       "getting-started": {
         "title": "Getting Started"
@@ -17,11 +20,13 @@
     },
     "links": {
       "Docs": "Docs",
+      "API": "API",
       "Blog": "Blog"
     },
     "categories": {
       "Introduction": "Introduction",
-      "Examples": "Examples"
+      "Examples": "Examples",
+      "API Reference": "API Reference"
     }
   },
   "pages-strings": {

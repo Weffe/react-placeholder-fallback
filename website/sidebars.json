@@ -6,6 +6,9 @@
         ],
         "Examples": [
             "examples/placeholderfallback"
+        ],
+        "API Reference": [
+            "api/placeholderfallback"
         ]
     }
 }

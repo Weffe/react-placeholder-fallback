@@ -7,8 +7,8 @@ In case you are interested in learning more about this project. Then, here are a
 
 ## Browse the docs
 
-- Explore examples
-- Look at the API Reference
+- [Explore examples](examples/placeholderfallback)
+- [Look at the API Reference](api/placeholderfallback)
 
 ## Found a bug? Have a question?
 
