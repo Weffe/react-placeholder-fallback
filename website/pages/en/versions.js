@@ -64,7 +64,7 @@ function Versions(props) {
                             {versions.map(
                                 version =>
                                     (version !== latestVersion) && (
-                                        <tr>
+                                        <tr key={version}>
                                             <th>{version}</th>
                                             <td>
                                                 <a href={docUrlWithVersion('getting-started.html', version)}>Documentation</a>
