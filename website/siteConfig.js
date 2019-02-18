@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-    title: 'Test Site', // Title for your website.
-    tagline: 'A website for testing',
+    title: 'react-placeholder-fallback', // Title for your website.
+    tagline: 'Easily manage when to show placeholders and fallback ui.',
     url: 'https://weffe.github.io', // Your website URL
     baseUrl: '/react-placeholder-fallback/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
@@ -39,8 +39,8 @@ const siteConfig = {
 
     /* Colors for website */
     colors: {
-        primaryColor: '#2E8555',
-        secondaryColor: '#205C3B',
+        primaryColor: '#137CBD',
+        secondaryColor: '#137CBD',
     },
 
     /* Custom fonts for website */
@@ -84,7 +84,7 @@ const siteConfig = {
 
     // You may provide arbitrary config keys to be used as needed by your
     // template. For example, if you need your repo's URL...
-    //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/Weffe/react-placeholder-fallback',
 };
 
 module.exports = siteConfig;

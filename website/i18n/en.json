@@ -3,13 +3,28 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Easily manage when to show placeholders and fallback ui.",
     "docs": {
+      "api/circle": {
+        "title": "Circle"
+      },
+      "api/iplaceholder": {
+        "title": "IPlaceholder"
+      },
+      "api/paragraphblock": {
+        "title": "Paragraph Block"
+      },
       "api/placeholderfallback": {
         "title": "Placeholder Fallback"
       },
+      "api/textblock": {
+        "title": "Text Block"
+      },
       "examples/placeholderfallback": {
         "title": "Placeholder Fallback"
+      },
+      "examples/prebuiltplaceholders": {
+        "title": "Prebuilt Placeholders"
       },
       "getting-started": {
         "title": "Getting Started"
