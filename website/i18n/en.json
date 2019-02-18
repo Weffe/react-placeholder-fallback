@@ -31,6 +31,30 @@
       },
       "more-resources": {
         "title": "More Resources"
+      },
+      "version-1.0.0-circle": {
+        "title": "Circle"
+      },
+      "version-1.0.0-iplaceholder": {
+        "title": "IPlaceholder"
+      },
+      "version-1.0.0-paragraphblock": {
+        "title": "Paragraph Block"
+      },
+      "version-1.0.0-placeholderfallback": {
+        "title": "Placeholder Fallback"
+      },
+      "version-1.0.0-textblock": {
+        "title": "Text Block"
+      },
+      "version-1.0.0-prebuiltplaceholders": {
+        "title": "Prebuilt Placeholders"
+      },
+      "version-1.0.0-getting-started": {
+        "title": "Getting Started"
+      },
+      "version-1.0.0-more-resources": {
+        "title": "More Resources"
       }
     },
     "links": {
