@@ -1,0 +1,19 @@
+{
+    "docs": {
+        "Introduction": [
+            "getting-started",
+            "more-resources"
+        ],
+        "Examples": [
+            "examples/placeholderfallback",
+            "examples/prebuiltplaceholders"
+        ],
+        "API Reference": [
+            "api/placeholderfallback",
+            "api/paragraphblock",
+            "api/textblock",
+            "api/circle",
+            "api/iplaceholder"
+        ]
+    }
+}
