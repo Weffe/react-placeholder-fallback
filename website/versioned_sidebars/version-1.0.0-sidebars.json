@@ -1,0 +1,19 @@
+{
+  "version-1.0.0-docs": {
+    "Introduction": [
+      "version-1.0.0-getting-started",
+      "version-1.0.0-more-resources"
+    ],
+    "Examples": [
+      "version-1.0.0-examples/placeholderfallback",
+      "version-1.0.0-examples/prebuiltplaceholders"
+    ],
+    "API Reference": [
+      "version-1.0.0-api/placeholderfallback",
+      "version-1.0.0-api/paragraphblock",
+      "version-1.0.0-api/textblock",
+      "version-1.0.0-api/circle",
+      "version-1.0.0-api/iplaceholder"
+    ]
+  }
+}
