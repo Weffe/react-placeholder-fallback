@@ -10,7 +10,7 @@
 
 const siteConfig = {
     title: 'react-placeholder-fallback', // Title for your website.
-    tagline: 'Easily manage when to show placeholders and fallback ui.',
+    tagline: 'Easily manage when to show placeholders and fallback ui',
     url: 'https://weffe.github.io', // Your website URL
     baseUrl: '/react-placeholder-fallback/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
@@ -33,8 +33,8 @@ const siteConfig = {
     ],
 
     /* path to images for header/footer */
-    headerIcon: 'img/docusaurus.svg',
-    footerIcon: 'img/docusaurus.svg',
+    headerIcon: 'img/icons/icon-64x64-white.png',
+    footerIcon: 'img/icons/icon-64x64-white.png',
     favicon: 'img/favicon.png',
 
     /* Colors for website */
@@ -73,8 +73,8 @@ const siteConfig = {
     cleanUrl: true,
 
     // Open Graph and Twitter card images.
-    ogImage: 'img/docusaurus.png',
-    twitterImage: 'img/docusaurus.png',
+    ogImage: 'img/icons/icon-64x64-gray.png',
+    twitterImage: 'img/icons/icon-64x64-gray.png',
 
     // Show documentation's last contributor's name.
     // enableUpdateBy: true,

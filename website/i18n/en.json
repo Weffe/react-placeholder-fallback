@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Easily manage when to show placeholders and fallback ui.",
+    "tagline": "Easily manage when to show placeholders and fallback ui",
     "docs": {
       "api/circle": {
         "title": "Circle"
