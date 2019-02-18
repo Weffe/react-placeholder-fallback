@@ -19,3 +19,10 @@ fallback?: React.ReactNode;
 /** The placeholder to display while the timeout has not expired*/
 placeholder: React.ReactNode;
 ```
+
+## Default Props
+
+```typescript
+delay: 0,
+timeout: 1000 * 10, // 10 seconds
+```
