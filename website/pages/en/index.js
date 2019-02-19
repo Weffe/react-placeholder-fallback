@@ -74,7 +74,7 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
     render() {
-        const { config: siteConfig, language = '' } = this.props;
+        const { config: siteConfig, language = 'en' } = this.props;
         const { baseUrl } = siteConfig;
 
         const Block = props => (
@@ -187,7 +187,7 @@ class Index extends React.Component {
 
         return (
             <div>
-                <HomeSplash siteConfig={siteConfig} language={language} />
+                <HomeSplash siteConfig={siteConfig} />
                 <div className="mainContainer">
                     {/* <Features /> */}
                     {/* <FeatureCallout /> */}
