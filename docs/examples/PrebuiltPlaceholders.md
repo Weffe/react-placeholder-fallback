@@ -23,7 +23,7 @@ import 'react-placeholder-fallback/dist/index.css';
 If you want to import the css file using a `<link />` tag, then you can reference it like so:
 
 ```html 
-<link rel="stylesheet" href="https://unpkg.com/react-placeholder-fallback@1.0.0/dist/index.css" />
+<link rel="stylesheet" href="https://unpkg.com/react-placeholder-fallback@2.1.1/dist/index.css" />
 ```
 
 ## Examples
@@ -31,11 +31,13 @@ If you want to import the css file using a `<link />` tag, then you can referenc
 ### Circle
 
 ```jsx
+import { Placeholders } from 'react-placeholder-fallback';
+
 // bare bones
-<Circle />
+<Placeholders.Circle />
 
 // using props
-<Circle 
+<Placeholders.Circle 
     className="my-class" 
     width="300px" 
     height="300px" 
@@ -47,11 +49,13 @@ If you want to import the css file using a `<link />` tag, then you can referenc
 ### TextBlock
 
 ```jsx
+import { Placeholders } from 'react-placeholder-fallback';
+
 // bare bones
-<TextBlock />
+<Placeholders.TextBlock />
 
 // using props
-<TextBlock 
+<Placeholders.TextBlock 
     className="my-class" 
     height="300px"
     animated={true}
@@ -63,11 +67,13 @@ If you want to import the css file using a `<link />` tag, then you can referenc
 ### ParagraphBlock
 
 ```jsx
+import { Placeholders } from 'react-placeholder-fallback';
+
 // bare bones
-<ParagraphBlock />
+<Placeholders.ParagraphBlock />
 
 // using props
-<ParagraphBlock 
+<Placeholders.ParagraphBlock 
     className="my-class" 
     rows={9} 
     animated={false}
