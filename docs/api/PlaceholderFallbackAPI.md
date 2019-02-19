@@ -22,7 +22,8 @@ placeholder: React.ReactNode;
 
 ## Default Props
 
-```typescript
+```jsx
 delay: 0,
-timeout: 1000 * 10, // 10 seconds
+timeout: 1000 * 15, // 15 sec timeout
+fallback: <p>Oh no! There was a network error. Please try again.</p>
 ```

@@ -21,7 +21,7 @@ as?: any;
 
 ## Default Props
 
-```typescript
+```jsx
 animated: true,
 animationSpeed: 'medium',
 animationType: 'shimmer',
