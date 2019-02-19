@@ -103,7 +103,7 @@ class Index extends React.Component {
             <Block id="try">
                 {[
                     {
-                        content: '<iframe src="https://codesandbox.io/embed/8lmzjv57q8?hidenavigation=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>',
+                        content: '<iframe src="https://codesandbox.io/embed/50l034n92l" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>',
                         title: 'Try it Out!',
                     },
                 ]}
