@@ -8,6 +8,9 @@
       "api/circle": {
         "title": "Circle"
       },
+      "api/create": {
+        "title": "create"
+      },
       "api/iplaceholder": {
         "title": "IPlaceholder"
       },
@@ -19,6 +22,10 @@
       },
       "api/textblock": {
         "title": "Text Block"
+      },
+      "examples/create-custom-placeholderfallback": {
+        "title": "Create Custom Placeholder Fallback",
+        "sidebar_label": "Custom Placeholder Fallback"
       },
       "examples/placeholderfallback": {
         "title": "Placeholder Fallback"
