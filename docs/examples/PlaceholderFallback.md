@@ -19,29 +19,29 @@ Here, we are using the prebuilt placeholders that this library provides for a su
 <details>
 <summary>javascript interactive example</summary>
 
-<iframe src="https://codesandbox.io/embed/8lmzjv57q8" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/50l034n92l" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </details>
 
 <details>
 <summary>typescript interactive example</summary>
 
-<iframe src="https://codesandbox.io/embed/zxykzpkrvl" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/23zn1q9n6y" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </details>
 
 
-## Provide Custom Placeholder Example
+## Provide Custom Placeholders Example
 
-This example shows how you can provide your own custom placeholder using class or functional component syntax.
+This example shows how you can provide your own custom placeholders using class or functional component syntax.
 
 <details>
 <summary>javascript interactive example</summary>
 
-<iframe src="https://codesandbox.io/embed/l70p637z17" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/yk2nv1582z" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </details>
 
 <details>
 <summary>typescript interactive example</summary>
 
-<iframe src="https://codesandbox.io/embed/vn6vm1wp60" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/mm0jozm6kj" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </details>
 
