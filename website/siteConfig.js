@@ -11,8 +11,8 @@
 const siteConfig = {
     title: 'react-placeholder-fallback', // Title for your website.
     tagline: 'Easily manage when to show placeholders and fallback ui',
-    url: 'https://weffe.github.io', // Your website URL
-    baseUrl: '/react-placeholder-fallback/', // Base URL for your project */
+    url: 'https://react-placeholder-fallback.netlify.com', // Your website URL
+    baseUrl: '/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
     //   url: 'https://facebook.github.io',
     //   baseUrl: '/test-site/',
