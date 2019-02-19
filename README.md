@@ -1,14 +1,14 @@
 # React Placeholder Fallback
 
-[![npm version](http://img.shields.io/npm/v/react-placeholder-fallback.svg)](https://npmjs.org/package/react-placeholder-fallback "View this project on npm")
+Easily manage when to show placeholders and fallback ui
 
-Simple react component to manage when to show placeholders and fallback messages when a network request fails.
+[![npm version](http://img.shields.io/npm/v/react-placeholder-fallback.svg)](https://npmjs.org/package/react-placeholder-fallback "View this project on npm")
 
 ## Quick Start
 
 ### Install
 
-<details>
+<details open>
 <summary>npm</summary>
 
 ```bash
@@ -16,7 +16,7 @@ npm install --save react-placeholder-fallback
 ```
 </details>
 
-<details>
+<details open>
 <summary>yarn</summary>
 
 ```bash
@@ -50,8 +50,7 @@ This library has first class support for TypeScript. Types are automatically inc
 
 ## Documentation
 
-1. [Examples](./docs/Examples.md)
-1. [Full-Example](./docs/Full-Example.md)
+[Visit the online docs](https://react-placeholder-fallback.netlify.com/)
 
 ## Motivation
 
