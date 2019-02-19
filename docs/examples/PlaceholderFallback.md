@@ -25,7 +25,7 @@ Here, we are using the prebuilt placeholders that this library provides for a su
 <details>
 <summary>typescript interactive example</summary>
 
-<iframe src="https://codesandbox.io/embed/23zn1q9n6y" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/rlq2y535z4" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </details>
 
 
