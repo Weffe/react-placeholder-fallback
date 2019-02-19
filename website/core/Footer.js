@@ -50,12 +50,11 @@ class Footer extends React.Component {
                     <div>
                         <h5>Community</h5>
                         <a
-                            href="http://stackoverflow.com/questions/tagged/"
+                            href="http://stackoverflow.com/questions/tagged/react-placeholder-fallback"
                             target="_blank"
                             rel="noreferrer noopener">
                             Stack Overflow
                         </a>
-                        <a href="https://discordapp.com/">Project Chat</a>
                     </div>
                     <div>
                         <h5>More</h5>
