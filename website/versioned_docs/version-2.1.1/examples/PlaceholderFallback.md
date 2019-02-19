@@ -1,6 +1,7 @@
 ---
-id: placeholderfallback
+id: version-2.1.1-placeholderfallback
 title: Placeholder Fallback
+original_id: placeholderfallback
 ---
 
 The `PlaceholderFallback` component allows you easily control when to show a placeholder and what to show as a fallback

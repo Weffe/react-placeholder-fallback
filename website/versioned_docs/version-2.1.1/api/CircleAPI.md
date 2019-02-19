@@ -1,9 +1,10 @@
 ---
-id: textblock
-title: Text Block
+id: version-2.1.1-circle
+title: Circle
+original_id: circle
 ---
 
-Here are the following props that the `TextBlock` component can take.
+Here are the following props that the `Circle` component can take.
 
 ##  Properties
 
@@ -28,6 +29,6 @@ animationType: 'shimmer',
 as: 'span'
 ```
 
-If you need to have the `TextBlock` rendered in a different tag other than a `<p>` tag.
+If you need to have the `Circle` rendered in a different tag other than a `<p>` tag.
 Then, use the `as` prop and supply it `div` to have it rendered in a `<div>` tag, etc.
 

@@ -1,6 +1,7 @@
 ---
-id: placeholderfallback
+id: version-2.1.1-placeholderfallback
 title: Placeholder Fallback
+original_id: placeholderfallback
 ---
 
 Here are the following props that the `PlaceholderFallback` component can take.

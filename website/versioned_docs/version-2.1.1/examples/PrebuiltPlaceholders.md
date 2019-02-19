@@ -1,6 +1,7 @@
 ---
-id: prebuiltplaceholders
+id: version-2.1.1-prebuiltplaceholders
 title: Prebuilt Placeholders
+original_id: prebuiltplaceholders
 ---
 
 This library comes equipped with a couple of placeholders already prebuilt. You don't have to use them but they are provided for convenience. You may also build your own.

@@ -1,9 +1,10 @@
 ---
-id: textblock
-title: Text Block
+id: version-2.1.1-paragraphblock
+title: Paragraph Block
+original_id: paragraphblock
 ---
 
-Here are the following props that the `TextBlock` component can take.
+Here are the following props that the `ParagraphBlock` component can take.
 
 ##  Properties
 
@@ -12,11 +13,10 @@ className?: string;
 animated?: boolean;
 animationSpeed?: 'slow' | 'medium' | 'fast';
 animationType?: 'shimmer' | 'pulse';
-width?: IPlaceholderWidth["width"] | string;
-height?: string;
+rows?: number;
 style?: object;
 /** Specifies what html element this is rendered as. E.g. <span>, <div>, etc. */
-as?: any;
+as?: any; 
 ```
 
 ## Default Props
@@ -25,9 +25,10 @@ as?: any;
 animated: true,
 animationSpeed: 'medium',
 animationType: 'shimmer',
-as: 'span'
+rows: 4,
+as: 'p'
 ```
 
-If you need to have the `TextBlock` rendered in a different tag other than a `<p>` tag.
+If you need to have the `ParagraphBlock` rendered in a different tag other than a `<p>` tag.
 Then, use the `as` prop and supply it `div` to have it rendered in a `<div>` tag, etc.
 

@@ -6,10 +6,12 @@
         ],
         "Examples": [
             "examples/placeholderfallback",
-            "examples/prebuiltplaceholders"
+            "examples/prebuiltplaceholders",
+            "examples/create-custom-placeholderfallback"
         ],
         "API Reference": [
             "api/placeholderfallback",
+            "api/create",
             "api/paragraphblock",
             "api/textblock",
             "api/circle",

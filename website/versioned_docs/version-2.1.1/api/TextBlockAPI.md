@@ -1,6 +1,7 @@
 ---
-id: textblock
+id: version-2.1.1-textblock
 title: Text Block
+original_id: textblock
 ---
 
 Here are the following props that the `TextBlock` component can take.
