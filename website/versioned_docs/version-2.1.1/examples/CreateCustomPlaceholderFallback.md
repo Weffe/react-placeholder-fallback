@@ -36,7 +36,7 @@ Here, we are going to create a custom `PlaceholderFallback` and reuse it across 
 <details>
 <summary>javascript interactive example</summary>
 
-<iframe src="https://codesandbox.io/embed/yk2nv1582z" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+<iframe src="https://codesandbox.io/embed/5y882rrv4p" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 </details>
 
 <details>
