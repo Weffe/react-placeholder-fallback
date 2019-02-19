@@ -9,11 +9,11 @@ The `create` method allows you to generate custom & reusable `PlaceholderFallbac
 
 ```typescript
 /** The amount of time (ms) that is waited before showing the placeholder */
-delay: number;
+delay?: number;
 /** The amount of time (ms) that is waited before showing the fallback */
-timeout: number;
+timeout?: number;
 /** The fallback to display when the timeout expires */
-fallback: React.ReactNode;
+fallback?: React.ReactNode;
 ```
 
 ## Default Props
