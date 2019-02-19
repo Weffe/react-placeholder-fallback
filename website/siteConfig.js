@@ -29,7 +29,7 @@ const siteConfig = {
         { doc: 'getting-started', label: 'Docs' },
         { doc: 'api/placeholderfallback', label: 'API' },
         // { page: 'help', label: 'Help' },
-        { blog: true, label: 'Blog' },
+        { blog: true, label: 'Blog' }
     ],
 
     /* path to images for header/footer */
@@ -85,6 +85,7 @@ const siteConfig = {
     // You may provide arbitrary config keys to be used as needed by your
     // template. For example, if you need your repo's URL...
     repoUrl: 'https://github.com/Weffe/react-placeholder-fallback',
+    useEnglishUrl: 'true'
 };
 
 module.exports = siteConfig;
