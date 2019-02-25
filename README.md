@@ -2,7 +2,7 @@
 
 Easily manage when to show placeholders and fallback ui
 
-[![npm version](http://img.shields.io/npm/v/react-placeholder-fallback.svg)](https://npmjs.org/package/react-placeholder-fallback "View this project on npm")
+[![npm version](http://img.shields.io/npm/v/react-placeholder-fallback.svg)](https://npmjs.org/package/react-placeholder-fallback "View this project on npm") [![Greenkeeper badge](https://badges.greenkeeper.io/Weffe/react-placeholder-fallback.svg)](https://greenkeeper.io/)
 
 ## Quick Start
 
