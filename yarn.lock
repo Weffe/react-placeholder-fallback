@@ -89,10 +89,21 @@
   dependencies:
     "@types/webpack" "*"
 
-"@types/webpack@*", "@types/webpack@^4.4.24":
+"@types/webpack@*":
   version "4.4.24"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.24.tgz#75bc301176066f566ec54151b6101c2b45abb8b2"
   integrity sha512-yg99CjvB7xZ/iuHrsZ7dkGKoq/FRDzqLzAxKh2EmTem6FWjzrty4FqCqBYuX5z+MFwSaaQGDAX4Q9HQkLjGLnQ==
+  dependencies:
+    "@types/anymatch" "*"
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    source-map "^0.6.0"
+
+"@types/webpack@^4.4.28":
+  version "4.4.28"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.28.tgz#5286d426dc6475edbeb69789fa98d96a4e1e1640"
+  integrity sha512-kZO1rUsJVfpsXk/LSAJQxQDHMWg24cGUR5TsjLvCvm/WzD9Q9F60i9E0JRF68XBE5bDYkkkbNNP0hFmiphTNJA==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
